@@ -1,11 +1,24 @@
-#search {
-	border-style: solid;
-	border-radius: 1.1em;
+#search, #submit {
 	font-size: 1.2em;
-	width: 20em;
-	height: 2.2em;
+	height: 2.0em;
+	border-style: solid;
 	margin: 5em 0;
+}
+
+#search {
+	border-radius: 1.1em 0 0 1.1em;
+	width: 20em;
 	padding: 0 1em;
+}
+
+#submit {
+	border-radius: 0 1.1em 1.1em 0;
+	padding: 0 1.0em 0 0.5em;
+	margin: 0 0 0 -0.4em;
+}
+
+input:focus {
+  outline-width: 0;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
